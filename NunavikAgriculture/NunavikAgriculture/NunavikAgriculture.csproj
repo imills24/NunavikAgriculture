@@ -107,6 +107,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="styles\index.css" />
+    <Content Include="styles\master.css" />
     <Content Include="Web.config" />
     <Content Include="welcome.html" />
   </ItemGroup>
@@ -115,7 +117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts\" />
-    <Folder Include="styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
